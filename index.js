@@ -11,7 +11,7 @@ async function embedText(text, taskType) {
     config: { outputDimensionality: 768, taskType }
   });
   return response.embeddings[0].values;
-}
+};
 
 const snippets = [
   "The cheetah is the fastest land animal, capable of reaching speeds up to 70 mph.",
